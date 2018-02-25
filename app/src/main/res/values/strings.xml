@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">marketversionparsing</string>
+
+    <string name="app_version">Version</string>
+    <string name="current_version">Current Version</string>
+    <string name="latest_version">Latest Version</string>
+    <string name="same_version">This is the latest version.</string>
+    <string name="dif_version">Required update.</string>
+
+</resources>

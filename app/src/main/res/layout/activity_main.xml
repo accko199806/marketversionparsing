@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/showMarketVersionDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Market Version dialog" />
+
+        <Button
+            android:id="@+id/showAppVersionDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show App Version dialog" />
+
+        <Button
+            android:id="@+id/showVersionCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Version Check" />
+    </LinearLayout>
+
+</RelativeLayout>
