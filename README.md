@@ -8,11 +8,11 @@ this process follow 4-steps:
 
 1. Parsing the *App Version* in Google Play.
 
-2. gets the version within the app.
+2. Gets the version within the app.
 
 3. Compare version.
 
-4. alert *Update dialog*!
+4. Alert *Update dialog*!
 
 ## Setup
 This app uses the [jsoup library](https://jsoup.org) for parsing.
