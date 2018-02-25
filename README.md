@@ -31,12 +31,12 @@ compile 'org.jsoup:jsoup:1.11.2'
 ## How to use
 - Write the package name will be parsed.
 ```java
-WhatsNewParsing.getPackageName("Write Your App Package");
+MarketVersionParsing.getPackageName("Your App Package");
 ```
 
 - Add a String that gets the parsed *App Version*.
 ```java
-String getWhatsNew = WhatsNewParsing.getWhatsNew();
+String getMarketVersion = MarketVersionParsing.getMarketVersion();
 ```
 
 - Add a String that gets the version within the app.
@@ -46,7 +46,8 @@ String getAppVersion = getPackageManager().getPackageInfo(getPackageName(), 0).v
 
 - Compare version.
 ```java
-if (getAppVersion.toString().equals(getMarketVersion)) { // This is the latest version.
+if (getAppVersion.toString().equals(getMarketVersion)) {
+// This is the latest version.
 } else {
 // Required update.
 }
